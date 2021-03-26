@@ -1,0 +1,9 @@
+pip useful commands
+1.pip help
+2.pip help pygame
+3.pip list(all recent installs)
+4.pip list -o(all outdated modules)
+5.pip list -U pygame(update a module)
+{update all modules}
+6.pip freeze --local | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install -U
+7.pip freeze {list of recent modules outdated}

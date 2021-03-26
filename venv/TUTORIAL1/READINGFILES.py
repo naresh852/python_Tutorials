@@ -1,0 +1,17 @@
+# open("employees.txt")
+# open("employees.txt","r")
+# open("employees.txt","w")
+# open("employees.txt","a")
+# open("employees.txt","r+")
+empfile = open("employees.txt","r")
+# print(empfile.close())
+# print(empfile.readable())
+# print(empfile.read())
+# print(empfile.readline())
+# print(empfile.readline())
+# print(empfile.readlines())
+# print(empfile.readlines()[1])
+for emp in empfile:
+    print(emp)
+
+empfile.close()

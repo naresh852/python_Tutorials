@@ -1,0 +1,15 @@
+import random
+# value=random.random()
+# value=random.uniform(1,6)
+# value=random.randint(1,6)
+a=['a','b','g']
+# value=random.choice(a)
+# value=random.choices(a,k=5)
+# value=random.choices(a,weights=[44,44,1],k=6)
+deck=list(range(1,53))
+# print(value)
+# print(a)
+# random.shuffle(deck)
+hand=random.sample(deck,k=5)
+# print(deck)
+print(hand)

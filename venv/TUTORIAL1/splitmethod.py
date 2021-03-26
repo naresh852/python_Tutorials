@@ -1,0 +1,5 @@
+i,y = input("enter num ").split()
+print(i,y)
+print("first num is {} and second num is {}".format(i,y))
+x = list(map(int,input("enter num: ").split()))
+print("no of students: ",x)

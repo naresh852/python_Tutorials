@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=N5vscPTWKOk&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=14
+watch this video to create a virtualenv,activate,deactivate
+
+watch this video to manage virtualenv,virtual variables
+https://www.youtube.com/watch?v=cY2NXB_Tqq0&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&index=16

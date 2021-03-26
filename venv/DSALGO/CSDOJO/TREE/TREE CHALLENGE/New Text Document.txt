@@ -1,0 +1,63 @@
+hey, thanks for that video, here is my solution for the two last challenges :) (I have placed the childs in an array because when there is more than 2 of a kind it what i do :p )
+def univalCountManyChilds(root):
+ root, count, isUni = univalCountManyChildsRec(root)
+ return count
+
+def univalCountManyChildsRec(root):
+ if root is None:
+  return (root, 0, True)
+
+ childResults = [univalCountManyChildsRec(child) for child in root.childs]
+
+ isUni = True
+ sum = 0
+ for child, count, uni in childResults:
+  sum += count
+  if not uni:
+   isUni = False
+  elif child != None and child.value != root.value
+   isUni = False
+ if isUni:
+  sum += 1
+ return (root, sum, isUni)
+
+def bivalCount(root):
+ count, isBival, v1, v2 = bivalCountRec(root)
+ return count
+
+def bivalCountRec(root,val=None):
+ if root is None:
+  return (0, True, val, val)
+
+ v = root.value
+
+ lcount, lbival, lv1, lv2 = bivalCountRec(root.left, v)
+ rcount, rbival, rv1, rv2 = bivalCountRec(root.right, v)
+
+ sum = rcount + lcount
+
+ isBival = True
+ if not lbival or not rbival
+  isBival = False
+ if lv1 != v and lv2 != v
+  isBival = False
+ if rv1 != v and rv2 != v
+  isBival = False
+ if rv1 != lv1 and rv1 != lv2
+  isBival = False
+ if rv2 != lv1 and rv2 != lv2
+  isBival = False
+
+ v1 = v2 = v
+
+ if isBival:
+  sum += 1
+  if lv1 != v:
+   v2 = lv1
+  elif lv2 != v:
+   v2 = lv2
+  elif rv1 != v:
+   v2 = rv1
+  elif rv2 != v:
+   v2 = rv2
+ return (sum, isBival, v1, v2)

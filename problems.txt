@@ -1,0 +1,29 @@
+
+============= unable to run pip and jupyter notebook================
+1.go to search python 
+2.right click open file location
+3.open file location again
+4.go to scripts
+5.copy location
+C:\Users\nares\AppData\Local\Programs\Python\Python39\Scripts
+6.open environ in search bar
+7.click envi variables
+8.paste link in naresh reddy variables and variable name is PYTHONPATH 
+9.and paste in system variables also bu editing path there
+10.problem solved we can use pip and jupyter in terminal
+
+==============if sql also shows problem ===========
+1.reconfigure installer
+2.if above doesnt work
+3.got to envi and naresh reddy variables
+4.variable name PATH C:\Program Files\MySQL\MySQL Server 8.0\bin
+5.click ok
+=================if mysqldb module shows mysqlDB module not found error============
+
+import mysql.connector
+from mysql import connector
+import pandas as pd
+from sqlalchemy import create_engine
+import mysql
+
+engine = create_engine('mysql+mysqlconnector://root:password@localhost/giraffe')
