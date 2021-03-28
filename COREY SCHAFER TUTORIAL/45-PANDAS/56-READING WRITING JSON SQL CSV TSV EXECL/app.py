@@ -8,8 +8,8 @@ import mysql
 #                                host='localhost',
 #                                passwd = 'password',
 #                                database='giraffe')
-# conn=create_engine('mysql://root:password@localhost/giraffe')
-conn = create_engine('mysql+mysqlconnector://root:password@localhost/giraffe')  ##this works for mysql
+conn=create_engine('mysql://root:password@localhost/giraffe')
+# conn = create_engine('mysql+mysqlconnector://root:password@localhost/giraffe')  ##this works for mysql
 # conn = create_engine('sqlite:///giraffe.db')
 print(conn)
 df=pd.read_sql_query('show tables from giraffe',conn)

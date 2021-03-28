@@ -27,3 +27,11 @@ from sqlalchemy import create_engine
 import mysql
 
 engine = create_engine('mysql+mysqlconnector://root:password@localhost/giraffe')
+================================= no module found error ====================
+1.mainly because of environ path set in environment variables of nareshreddy and system variables
+2.second reason:
+some packages are installed in venu(virtual envu) and are not installed in root library in c drive
+C:\Users\nares\AppData\Local\Programs\Python\Python39\Lib\site-packages
+these is the reason no module named mysqldb is shown even though it was installed
+this is the reason no module names django is shown even though it was instlled'
+so copy packages to root library from venu in E drive.
