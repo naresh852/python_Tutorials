@@ -30,3 +30,33 @@
 # print(0b0101) ##binary conversion
 # print(0x4F)   ###hexadecimal conversion
 # print(0o14)   ###octal conversion
+
+###########dict in python ################
+# pairs=(('name','naresh'),('age',24))
+# print(dict(pairs))
+# pairs={('name','naresh'),('age',24)}
+# print(dict(pairs))
+# pairs=[('name','naresh'),('age',24)]
+# print(dict(pairs))
+# print(dict(pairs)['name'])
+
+# Python guarantees that q * m+r will equal n. n/m n=dividend,m=divisor
+# l1=[5,6,7]
+# l2=[5,7]
+# if l1<l2:
+#     print('l1 is less than l2')
+# else:
+#     print('l2 is greater than l1')
+# we can perform comparison operations on these lists.thats cool i didnt know that
+# extende assignment operator +=
+# alpha=[1,2,3]
+# beta=alpha
+# beta+=[4,5]
+# beta=beta+[6,7]
+# print(alpha)
+# j=0
+# # data=['A','B','C','G','H']
+# data=[]
+# while j < len(data) and data[j] != 'X' :
+#     print(j)
+#     j += 1
