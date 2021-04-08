@@ -60,3 +60,29 @@
 # while j < len(data) and data[j] != 'X' :
 #     print(j)
 #     j += 1
+
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+# grades=['A','A+','B']
+# points={'A+' :4.0, 'A' :4.0, 'A-' :3.67, 'B+' :3.33, 'B' :3.0, 'B-' :2.67, 'C+' :2.33, 'C' :2.0, 'C' :1.67, 'D':1.0, 'D+':1.33, 'F': 0.0}
+# def compute_gpa(grades, points ):
+#     num_courses = 0
+#     total_points = 0
+#     for g in grades:
+#         if g in points: # a recognizable grade
+#             num_courses += 1
+#             total_points += points[g]
+#     return total_points / num_courses
+# print(compute_gpa(grades,points))
+###################### ord and chr usess to find unicode of some value and reverse ################
+# Character Encoding: ord and chr relate characters and their integer code points.
+# For example, ord( A ) is 65 and chr(65)
+############## divmod uses @####################
+# x = divmod(5, 2)
+# The divmod() function returns a tuple containing the quotient  and the remainder when argument1 (dividend) is divided by argument2 (divisor).
+################ pow(x,y,z) uses  ##################
+# x = pow(4, 3, 5)  # (same as (4 * 4 * 4) % 5):
+# print(x)
+# print('helllo '*5)
+# print('marron',5)
+# print(input().split())
