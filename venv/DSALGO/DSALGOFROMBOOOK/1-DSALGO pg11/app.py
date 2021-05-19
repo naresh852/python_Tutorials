@@ -86,3 +86,76 @@
 # print('helllo '*5)
 # print('marron',5)
 # print(input().split())
+
+
+# ########## EXCEPTION HANDLING ############
+# an initially invalid choice
+# age = -1
+# while age <= 0:
+#     try:
+#         age = int(input( "Enter your age in years: "))
+#         if age <= 0:
+#             print( "Your age must be positive" )
+#     # except (ValueError, EOFError):
+#     #     # print( "Invalid response" )
+#     #     pass
+#     except ValueError:
+#         print(" That is an invalid age specification ")
+#     except EOFError:
+#         print( "There was an unexpected error reading input." )
+#         raise
+
+#  For example, the call range(1000000) does not return a list of numbers; it
+# returns a range object that is iterable. This object generates the million values one
+# at a time, and only as needed. Such a lazy evaluation technique has great advantage.
+#############ITERATORS AND ITERABLES #################
+# def fibonacci():
+#     a = 0
+#     b = 1
+#     while True:  # keep going...
+#         yield a  # report value, a, during this pass
+#         future = a + b
+#         a = b  # this will be next value reported
+#         b = future
+
+
+# x = fibonacci()
+# print(next(x))
+# print(next(x))
+# print(next(x))
+# for i in x:
+#
+#     if next(x) > 200:
+#         break
+#     print(next(x))
+
+
+# Online IDE - Code Editor, Compiler, Interpreter
+# def fibonacci( ):
+#     a,b= 0,1
+#     while True:
+#         yield a
+#         a, b = b, a+b
+
+# break
+
+# print(next(fibonacci()))
+# print(next(fibonacci()))
+# print(next(fibonacci()))
+# for i in fibonacci():
+#     print(next(fibonacci()))
+# 'print(fibonacci())'
+###################### vars dirs ###########################
+# print(dir(list))
+# print(vars)  #vars require any module with dic attribute
+# https://www.geeksforgeeks.org/vars-function-python/
+################## first class objects #######################
+# first-class objects are instances of
+# a type that can be assigned to an identifier, passed as a parameter, or returned by
+# a function. All of the data types we introduced in Section 1.2.3, such as int and
+# list, are clearly first-class types in Python. I
+# scream = print
+# scream('hello')
+###### ############## modules ########################
+# PAGE49 NECESSARY EXISTING MODULES TO GO THROUGH
+# https: // www.geeksforgeeks.org / python - arrays /

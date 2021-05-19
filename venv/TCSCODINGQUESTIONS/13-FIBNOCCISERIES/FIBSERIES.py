@@ -5,7 +5,6 @@ def solve(n):
     if n == 1 or n == 2:
         return 1
 
-
 try:
     n = int(input())
 
