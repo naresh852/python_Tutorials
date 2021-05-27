@@ -52,6 +52,7 @@ names = ['Corey', 'Nicole']
 #############chained######################
 # counter=letters+numbers+names  #but if elements are in millions this is not efficient
 # counter=itertools.chain(letters,numbers,names)  #it loops from letters to names one by one
+# print(list(counter))
 ################## ISLICE (RANGE,STOP)###########
 # counter=itertools.islice(numbers,2)  #start,step are optional
 # counter=itertools.islice(range(10),1,6,2)  #iterable,start,stop,step
