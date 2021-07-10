@@ -11,12 +11,12 @@
 #f.close()
 
 ##Reading Files:
-#with open("test.txt", "r") as f:
-	#pass
+with open("test.txt", "r") as f:
+	pass
 
-	##Small Files:
-	#f_contents = f.read()
-	#print(f_contents)
+	#Small Files:
+	f_contents = f.read()
+	print(f_contents)
 
 	##Big Files:
 	#f_contents = f.readlines()

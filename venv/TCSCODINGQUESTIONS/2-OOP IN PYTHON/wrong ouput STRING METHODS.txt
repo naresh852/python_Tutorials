@@ -1,0 +1,16 @@
+idnI tnednepedni sa eciffo emussa ot ssergnoC eht yb detcele saw urheN
+i+d+n+I+t+n+e+d+n+e+p+e+d+n+i+s+a+e+c+i+f+f+o+e+m+u+s+s+a+o+t+s+s+e+r+g+n+o+C+e+h+t+y+b+d+e+t+c+e+l+e+s+a+w+u+r+h+e+N
+Every string in  ['his', 'plural', 'oversaw', 'republic'] were present
+['Nehru', 'was', 'elected', 'by', 'the', 'Congress', 'to', 'assume', 'office', 'as', 'independent', "India's", 'first', 'Prime', 'Minister', 'although', 'the', 'question', 'of', 'leadership']
+['colony', 'republic', 'while', 'nurturing', 'plural', 'multi-party', 'system.', 'In', 'foreign', 'policy', 'took', 'leading', 'role', 'Non-Aligned', 'Movement', 'projecting', 'regional', 'hegemon', 'South', 'Asia.']
+650
+
+
+
+??wrong output
+idnI tnednepedni sa eciffo emussa ot ssergnoC eht yb detcele saw urheN
+i+d+n+I+t+n+e+d+n+e+p+e+d+n+i+s+a+e+c+i+f+f+o+e+m+u+s+s+a+o+t+s+s+e+r+g+n+o+C+e+h+t+y+b+d+e+t+c+e+l+e+s+a+w+u+r+h+e+N
+Every string in  ['his', 'plural', 'oversaw', 'republic'] were not present
+['Nehru', 'was', 'elected', 'by', 'the', 'Congress', 'to', 'assume', 'office', 'as', 'independent', "India's", 'first', 'Prime', 'Minister', 'although', 'the', 'question', 'of', 'leadership']
+['colony', 'republic', 'while', 'nurturing', 'plural', 'multi-party', 'system.', 'In', 'foreign', 'policy', 'took', 'leading', 'role', 'Non-Aligned', 'Movement', 'projecting', 'regional', 'hegemon', 'South', 'Asia.']
+650

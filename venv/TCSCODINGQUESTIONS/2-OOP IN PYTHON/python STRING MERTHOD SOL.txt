@@ -1,0 +1,33 @@
+def stringmethod(para, special1, special2, list1, strfind):
+    # opara = para
+    for i in special1:
+        temp = para.replace(i, "")
+        para = temp
+    word1 = temp
+    rword2 = word1[69::-1]
+    print(rword2)
+    rword2 = rword2.replace(" ", "")
+    joint_string = rword2.replace("", special2)
+    le = len(joint_string)
+    print(joint_string[1:le - 1])
+    for i in list1:
+        if i not in para.split():
+            result = False
+            break
+        else:
+            result = True
+    if result:
+        print(f"Every string in  {list1} were present")
+    else:
+        print(f"Every string in  {list1} were not present")
+    print(word1.split()[:20])
+    word2 = para.split()
+    newlist = []
+    for i in word2:
+        if word2.count(i) < 3:
+            newlist.append(i)
+            if newlist.count(i) != 1:
+                newlist.pop()
+    nl = len(newlist)
+    print(newlist[nl - 20:nl:1])
+    print(word1.rfind(strfind))

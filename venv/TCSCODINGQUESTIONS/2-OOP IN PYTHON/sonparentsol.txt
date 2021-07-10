@@ -1,0 +1,32 @@
+# Write your code here
+class parent(object):
+    def __init__(self, t):
+        self.t = t
+
+
+class son(parent):
+    def __init__(self, t, sp):
+        self.sp = sp
+        parent.__init__(self, t)
+
+    def son_display(self):
+        valu = round(self.t * (sp / 100), 2)
+        print(f"Share of Son is {valu} Million.")
+        print(f"Total Asset Worth is {self.t} Million.")
+
+    def display(self):
+        print(f"Share of Parents is {round((self.t * 0.5), 2)} Million.")
+
+
+class daughter(parent):
+    def __init__(self, t, dp):
+        self.dp = dp
+        parent.__init__(self, t)
+
+    def daughter_display(self):
+        value = round(self.t * (dp / 100), 2)
+        print(f"Share of Daughter is {value} Million.")
+        print(f"Total Asset Worth is {self.t} Million.")
+
+    def display(self):
+        print(f"Share of Parents is {round((self.t * 0.5), 2)} Million.")
