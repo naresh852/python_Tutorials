@@ -3,6 +3,7 @@ if __name__=='__main__':
     n=int(input())
     sizez=Counter(list(map(int,input().split())))
     print(sizez)
+
     custnum=int(input())
     summ=0
     for _ in range(custnum):
